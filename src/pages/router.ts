@@ -9,7 +9,7 @@ import Error from '@/pages/Error'
 
 const Home = React.lazy(async () => {
   // simulated loading
-  // await new Promise(resolve => setTimeout(resolve, 3000))
+  await new Promise(resolve => setTimeout(resolve, 3000))
   return await import('./Home')
 })
 

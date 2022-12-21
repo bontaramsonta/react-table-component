@@ -5,7 +5,7 @@ function EditableTable() {
   const tableData = React.useMemo(generateTableData, [])
   return (
     <div className=' bg-blue-500'>
-      {tableData.map((row) => (
+      {/* {tableData.map((row) => (
         <>
           <ul>
             {Object.keys(row).map((k) => (
@@ -16,7 +16,7 @@ function EditableTable() {
           </ul>
           <br />
         </>
-      ))}
+      ))} */}
     </div>
   )
 }
